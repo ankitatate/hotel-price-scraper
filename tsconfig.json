@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                          // Use modern JS
+    "module": "commonjs",                     // Node uses CommonJS modules
+    "lib": ["ES6", "DOM"],                    // Include ES6 + browser APIs
+    "strict": true,                           // Enable all strict type checks
+    "esModuleInterop": true,                  // Allow default imports like `import puppeteer from 'puppeteer'`
+    "moduleResolution": "node",               // Resolve modules from node_modules
+    "outDir": "dist",                         // Output compiled JS here (optional)
+    "resolveJsonModule": true,                // Allow importing .json files
+    "skipLibCheck": true                      // Skip checking type definitions
+  },
+  "include": ["index.ts"]
+}
